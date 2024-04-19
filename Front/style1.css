@@ -1,0 +1,359 @@
+:root {
+    --yellow: #ff7a00;
+    --red: #c72e2e;
+    --blue: #2957b0;
+  }
+  * {
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1em;
+  }
+  
+  section {
+    padding: 1em;
+  }
+
+  .Logo {
+    width: 8vw;
+    padding: 2vh;
+  }
+
+  #menu_header {
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+  }
+
+  .nav_link {
+    color: var(--yellow);
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  #entrar {
+    background-color: var(--blue);
+    border-radius: 1em;
+    padding: 1em;
+    color: #ffe;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  h3{
+      padding: 2em;
+  }
+
+  .section_main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3em;
+  }
+
+  #Busca {
+    align-items: center;
+    width: 30%;
+    border-radius: 10px;
+    border: none;
+    background-color: #cababa;
+    height: 2vh;
+    padding-left: 2vh;
+    font-size: 1em;
+    font-weight: 700;
+  }
+
+  .main_mrb {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 2em;
+    column-gap: 7em;
+  }
+
+  .card {
+    display: grid;
+    grid-template-areas:
+      "categoria image"
+      "opcoes image";
+    border-radius: 3em;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    height: 7rem;
+    width: 15rem;
+  }
+
+  .categoria {
+    grid-area: categoria;
+  }
+
+  .opcoes {
+    grid-area: opcoes;
+    color: #cababa;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 1em;
+    padding: 0.37em;
+  }
+
+  .image_card {
+    grid-area: image;
+    width: 60%;
+    padding-left: 30px;
+  }
+
+  #card_mercado {
+    color: var(--yellow);
+    background-color: var(--red);
+  }
+
+  #card_restaurantes {
+    color: var(--red);
+    background-color: var(--yellow);
+  }
+
+  #card_Bebidas {
+    color: #ffe;
+    background-color: var(--blue);
+  }
+
+  #card_padarias {
+    color: var(--yellow);
+    background-color: var(--red);
+  }
+
+  #card_entregador {
+    color: #ffe;
+    background-color: var(--blue);
+  }
+
+  .section_title {
+    font-weight: 700;
+    color: var(--red);
+  }
+
+  .main_whb {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 7em;
+  }
+  
+  .restaurant_card {
+    border: solid black 1px;
+    display: grid;
+    grid-template-areas:
+      "categoria image"
+      "opcoes image";
+    border-radius: 3em;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2em;
+    color: #c72e2e;
+    width: 10rem;
+    height: 7rem;
+  }
+
+  .main_cya {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 7em;
+  }
+  
+  .mercado_card {
+    border: solid black 1px;
+    display: grid;
+    grid-template-areas:
+      "categoria image"
+      "opcoes image";
+    border-radius: 3em;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1em;
+    color: #c72e2e;
+    width: 13rem;
+    height: 9rem;
+  }
+
+  .newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    column-gap: 7em;
+  }
+
+  .newsletter h3 {
+    text-align: center;
+  }
+
+  form {
+    padding: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2em;
+  }
+
+  input {
+    width: 40vw;
+    padding: 1em;
+    border-radius: 1em;
+    border: none;
+    background-color: rgba(202, 186, 186, 0.15);
+  }
+
+  #Enviar {
+    padding: 1em;
+    border-radius: 1em;
+    border: none;
+    background-color: var(--blue);
+    color: #ffe;
+    font-weight: 500;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #ff7a00;
+    color: white; 
+    height: 30vh;
+  }
+
+  .TEXT_FOOTER{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .TEXT_FOOTER h3{
+    
+  }
+  
+  .Redes_Socias{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+  }
+  
+  .Redes_Socias-1{
+      display: flex;
+      align-items: center;
+      gap: 2em;
+      cursor: pointer;
+  }
+  
+  .Redes_Socias-1 img{
+      height: 4em;
+  }
+  
+  
+  
+  @media screen and (max-width: 980px) {
+    form {
+      flex-direction: column;
+    }
+    #menu_header {
+      gap: 1em;
+    }
+
+    header{
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 1em;
+    } 
+
+    .restaurant_card {
+      justify-content: center;
+      border-radius: 1.5em;
+      padding: 1.4em;
+      width: 10vw;
+      height: 10vh;
+    }
+
+    .restaurant_card img{
+      height: 12vh;
+    }
+
+    .restaurant_card p{
+      display: none;
+    }
+
+    .main_whb {
+      column-gap: 1em;
+    }
+
+    .main_cya {
+      column-gap: 1em;
+    }
+
+    .main_cya img{
+      height: 13vh;
+      width: 15vw;
+    }
+
+    .mercado_card {
+      border: solid black 1px;
+      border-radius: 1.5em;
+      padding: 1em;
+      width: 15vw;
+      height: 13vh;
+    }
+
+    .main_cya p{
+      display: none;
+    }
+
+    .Redes_Socias-1{
+      display: flex;
+      align-items: center;
+      gap: 1em;
+      cursor: pointer;
+    }
+
+    #Face, #Insta{
+      height: 8vh;
+    }
+
+    #SFOOD_TEXT{
+      font-size: 14px;
+    }
+
+    .TEXT_FOOTER p{
+      font-size: 14.5px;
+    }
+
+    #Text_Redes_Sociais{
+      font-size: 14px;
+      padding: 1.2em;
+    }
+
+    .TEXT_FOOTER h3{
+      padding: 1.2em;
+    }
+
+    footer {
+      height: 20vh;
+    }
+  }

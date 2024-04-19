@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style1.css" />
+    <link rel="shortcut icon" href="./Imagens/SFOOD.png" type="image/x-icon" />
+    <title>SFOOD</title>
+  </head>
+  <body>
+    <header>
+      <img class="Logo" src="./Imagens/SFOOD.png" alt="logo SFOOD" />
+      <nav id="menu_header">
+        <a href="#" class="nav_link">Mercados</a>
+        <a href="#" class="nav_link">Restaurantes</a>
+        <a href="#" class="nav_link">Restaurantes</a>
+      </nav>
+    </header>
+    <main>
+      <section class="section_main">
+        <input id="Busca" type="text" placeholder="Pesquisar..." />
+        <div class="main_mrb">
+          <div id="card_mercado" class="card">
+            <img
+              class="image_card"
+              id="mercados"
+              src="./Imagens/Mercado.png"
+              alt="Imagem Mercado"
+            />
+            <p class="categoria">Mercados</p>
+            <a href="#" class="opcoes">Ver opções ></a>
+          </div>
+          <div id="card_restaurantes" class="card">
+            <img
+              class="image_card"
+              id="restaurantes"
+              src="./Imagens/Restaurante.png"
+              alt="Imagem Restaurante"
+            />
+            <p class="categoria">Restaurantes</p>
+            <a href="#" class="opcoes">Ver opções ></a>
+          </div>
+          <div id="card_Bebidas" class="card">
+            <img
+              class="image_card"
+              id="bebidas"
+              src="./Imagens/bebidas.png"
+              alt="Imagem Bebidas"
+            />
+            <p class="categoria">Bebidas</p>
+            <a href="#" class="opcoes">Ver opções ></a>
+          </div>
+          <div id="card_padarias" class="card">
+            <img
+              class="image_card"
+              id="padarias"
+              src="./Imagens/padaria.png"
+              alt="Imagem Padaria"
+            />
+            <p class="categoria">Padarias</p>
+            <a href="#" class="opcoes">Ver opções ></a>
+          </div>
+          <div id="card_entregador" class="card">
+            <img
+              class="image_card"
+              id="entregador"
+              src="./Imagens/entregador.png"
+              alt="Imagem Entregador"
+            />
+            <p class="categoria">Entregador</p>
+            <a href="#" class="opcoes">Ver opções ></a>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h3 class="section_title">Os melhores Restaurantes</h3>
+        <div class="main_whb">
+          <div class="restaurant_card">
+            <img src="./Imagens/WC.png" alt="" />
+            <p>WC Donats</p>
+          </div>
+          <div class="restaurant_card">
+            <img src="./Imagens/Habibi.png" alt="" />
+            <p>Habibi</p>
+          </div>
+          <div class="restaurant_card">
+            <img src="./Imagens/burger.png" alt="" />
+            <p>Burguer SLA</p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h3 class="section_title">Os melhores Mercados</h3>
+        <div class="main_cya">
+          <div class="mercado_card">
+            <img src="./Imagens/Carrefive.png" alt="" />
+            <p class="">Carrefive</p>
+          </div>
+          <div class="mercado_card">
+            <img src="./Imagens/Yaffari.png" alt="" />
+            <p>Yaffari</p>
+          </div>
+          <div class="mercado_card">
+            <img src="./Imagens/açai1.png" alt="" />
+            <p>Açaí</p>
+          </div>
+        </div>
+      </section>
+      <section class="newsletter">
+        <h3>
+          Quer mais informações sobre o SFOOD? <br />
+          Coloque seu nome e e-mail abaixo:
+        </h3>
+        <form action="#">
+          <input
+            type="text"
+            name="inputName"
+            id="inputname"
+            aria-placeholder="Digite seu nome"
+            placeholder="Nome"
+          />
+          <input
+            type="email"
+            name="inputEmail"
+            id="inputemail"
+            required            
+            placeholder="E-mail"
+          />
+          <button id="Enviar">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="TEXT_FOOTER">
+        <h3 id="SFOOD_TEXT">SFOOD</h3>
+        <p class="TEXT_FOOTER">Site Institucional</p>
+        <p class="TEXT_FOOTER">Fale conosco</p>
+      </div>
+      <div class="TEXT_FOOTER">
+        <h3 id="SFOOD_TEXT">Descubra</h3>
+        <p class="TEXT_FOOTER">SFOOD shop</p>
+        <p class="TEXT_FOOTER">SFOOD card</p>
+      </div>
+      <div class="Redes_Socias">
+        <h3 id="Text_Redes_Sociais">Redes Sociais</h3>
+        <div  class="Redes_Socias-1">
+          <img id="Face" src="./Imagens/logo_face.png" alt="" onclick="window.location.href = 'https://pt-br.facebook.com/'" />
+          <img id="Insta" src="./Imagens/logo_insta.png" alt="" onclick="window.location.href = 'https://www.instagram.com/'">
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </body>
+</html>
